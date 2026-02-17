@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-
+// 
 const HeaderOne = () => {
   let pathname = usePathname();
   const [scroll, setScroll] = useState(false);
