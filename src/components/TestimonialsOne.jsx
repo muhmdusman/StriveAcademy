@@ -72,7 +72,7 @@ const TestimonialsOne = () => {
                 data-tilt-perspective={5000}
                 data-tilt-full-page-listening=''
               >
-                <img src='assets/images/thumbs/testimonial-img1.png' alt='' />
+                <img src='assets/images/Arham khan.jpg' alt='Arsam Khan' />
               </div>
               <div
                 className='testimonials__thumbs wow bounceIn'
@@ -82,7 +82,27 @@ const TestimonialsOne = () => {
                 data-tilt-perspective={5000}
                 data-tilt-full-page-listening=''
               >
-                <img src='assets/images/thumbs/testimonial-img2.png' alt='' />
+                <img src='assets/images/ibrahimkhan.png' alt='Ibrahim Khan' />
+              </div>
+              <div
+                className='testimonials__thumbs wow bounceIn'
+                data-tilt=''
+                data-tilt-max={15}
+                data-tilt-speed={500}
+                data-tilt-perspective={5000}
+                data-tilt-full-page-listening=''
+              >
+                <img src='assets/images/Humaira Mehmood.jpg' alt='Humaira Mehmood' />
+              </div>
+              <div
+                className='testimonials__thumbs wow bounceIn'
+                data-tilt=''
+                data-tilt-max={15}
+                data-tilt-speed={500}
+                data-tilt-perspective={5000}
+                data-tilt-full-page-listening=''
+              >
+                <img src='assets/images/Sheikh Usman.jpg' alt='Sheikh Usama' />
               </div>
             </div>
           </div>
@@ -94,10 +114,10 @@ const TestimonialsOne = () => {
                   <h5 className='text-main-600 mb-0'>What Our Students Say</h5>
                 </div>
                 <h2 className='mb-24 wow bounceIn'>
-                  Testimonials from Happy Learners for EduAll
+                  Testimonials from Happy Learners at Strive Star Academy
                 </h2>
                 <p className='text-neutral-500 text-line-2 wow bounceInUp'>
-                  16+ million Students are already learning on EduAll Platform
+                  Real experiences from our students and their families
                 </p>
               </div>
               <div className='testimonials__slider'>
@@ -120,7 +140,7 @@ const TestimonialsOne = () => {
                       <i className='ph-fill ph-star' />
                     </li>
                     <li className='text-warning-600 text-xl d-flex'>
-                      <i className='ph-fill ph-star-half' />
+                      <i className='ph-fill ph-star' />
                     </li>
                   </ul>
                   <p
@@ -128,16 +148,13 @@ const TestimonialsOne = () => {
                     data-aos='fade-left'
                     data-aos-duration={1200}
                   >
-                    "Enrolling in courses at EduAll was one of the best
-                    decisions I've made for my career. The flexibility of the
-                    online learning platform allowed me to study at my own pace
-                    while balancing my work”
+                    "I had a wonderful experience at Strive Star Academy. The academy provides an excellent learning environment for students. The faculty is dedicated and knowledgeable, creating an atmosphere that fosters both academic growth and personal development. Overall, Strive Star Academy is a great place for students to learn and grow in a nurturing environment."
                   </p>
                   <h4 className='mt-48 mb-8' data-aos='fade-left'>
-                    Kathryn Murphy
+                    Arsam Khan
                   </h4>
                   <span className='text-neutral-700' data-aos='fade-left'>
-                    Software Developer
+                    Student
                   </span>
                 </div>
                 <div className='testimonials-item'>
@@ -159,7 +176,7 @@ const TestimonialsOne = () => {
                       <i className='ph-fill ph-star' />
                     </li>
                     <li className='text-warning-600 text-xl d-flex'>
-                      <i className='ph-fill ph-star-half' />
+                      <i className='ph-fill ph-star' />
                     </li>
                   </ul>
                   <p
@@ -167,16 +184,85 @@ const TestimonialsOne = () => {
                     data-aos='fade-left'
                     data-aos-duration={1200}
                   >
-                    "Signing up for courses at EduAll was quite possibly of the
-                    best choice I've made for my vocation. The adaptability of
-                    the internet learning stage permitted me to learn at my own
-                    speed while adjusting my work"
+                    "Highly recommended academy for any class students. High quality education!!"
                   </p>
                   <h4 className='mt-48 mb-8' data-aos='fade-left'>
-                    John Doe
+                    Ibrahim Khan
                   </h4>
                   <span className='text-neutral-700' data-aos='fade-left'>
-                    UX/UI Designer
+                    Student
+                  </span>
+                </div>
+                <div className='testimonials-item'>
+                  <ul
+                    className='flex-align gap-8 mb-16'
+                    data-aos='fade-left'
+                    data-aos-duration={800}
+                  >
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                  </ul>
+                  <p
+                    className='text-neutral-700'
+                    data-aos='fade-left'
+                    data-aos-duration={1200}
+                  >
+                    "Highly recommended this academy, qualified teacher, friendly environment... this academy gives best result. 🙂"
+                  </p>
+                  <h4 className='mt-48 mb-8' data-aos='fade-left'>
+                    Humaira Mehmood
+                  </h4>
+                  <span className='text-neutral-700' data-aos='fade-left'>
+                    Parent
+                  </span>
+                </div>
+                <div className='testimonials-item'>
+                  <ul
+                    className='flex-align gap-8 mb-16'
+                    data-aos='fade-left'
+                    data-aos-duration={800}
+                  >
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                    <li className='text-warning-600 text-xl d-flex'>
+                      <i className='ph-fill ph-star' />
+                    </li>
+                  </ul>
+                  <p
+                    className='text-neutral-700'
+                    data-aos='fade-left'
+                    data-aos-duration={1200}
+                  >
+                    "Well qualified and experienced teachers. One of the best academy in Lahore."
+                  </p>
+                  <h4 className='mt-48 mb-8' data-aos='fade-left'>
+                    Sheikh Usama
+                  </h4>
+                  <span className='text-neutral-700' data-aos='fade-left'>
+                    Student
                   </span>
                 </div>
               </div>

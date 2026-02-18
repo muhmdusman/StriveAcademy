@@ -51,10 +51,12 @@ const HeaderOne = () => {
               <div className='logo'>
                 <Link href='/' className='link flex-align gap-10'>
                   <img src='assets/images/logo/logo.png' alt='Strive Star Academy' />
-                  <span className='fw-bold text-main-600 d-none d-sm-inline' style={{ fontSize: '1.25rem', whiteSpace: 'nowrap' }}>Strive Star Academy</span>
                 </Link>
               </div>
               {/* Logo End  */}
+            </div>
+            {/* Header Right start */}
+            <div className='header-right flex-align'>
               {/* Menu Start  */}
               <div className='header-menu d-lg-block d-none'>
                 <ul className='nav-menu flex-align'>
@@ -73,9 +75,6 @@ const HeaderOne = () => {
                 </ul>
               </div>
               {/* Menu End  */}
-            </div>
-            {/* Header Right start */}
-            <div className='header-right flex-align'>
               <button
                 type='button'
                 className='toggle-mobileMenu d-lg-none text-neutral-200 flex-center'
@@ -100,7 +99,6 @@ const HeaderOne = () => {
         <div className='mobile-menu__inner'>
           <Link href='/' className='mobile-menu__logo flex-align gap-10'>
             <img src='assets/images/logo/logo.png' alt='Strive Star Academy' />
-            <span className='fw-bold text-main-600' style={{ fontSize: '1.1rem' }}>Strive Star Academy</span>
           </Link>
           <div className='mobile-menu__menu'>
             <ul className='nav-menu flex-align nav-menu--mobile'>

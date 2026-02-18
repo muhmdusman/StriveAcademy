@@ -44,10 +44,9 @@ const ContactInner = () => {
                 </span>
                 <div className='flex-grow-1'>
                   <h4 className='mb-12'>Email Address</h4>
-                  <p className='text-neutral-500'>info@strivestaracademy.com</p>
-                  <p className='text-neutral-500'>admissions@strivestaracademy.com</p>
+                  <p className='text-neutral-500'>Strivestarsacademy01@gmail.com</p>
                   <a
-                    href='mailto:info@strivestaracademy.com'
+                    href='mailto:Strivestarsacademy01@gmail.com'
                     className='text-main-600 fw-semibold text-decoration-underline mt-16'
                   >
                     Send Us Email
@@ -62,10 +61,11 @@ const ContactInner = () => {
                 </span>
                 <div className='flex-grow-1'>
                   <h4 className='mb-12'>Phone Number</h4>
-                  <p className='text-neutral-500'>+92 300 1234567</p>
-                  <p className='text-neutral-500'>+92 300 7654321</p>
+                  <p className='text-neutral-500'>0336-1401532</p>
+                  <p className='text-neutral-500'>0348-4396862</p>
+                  <p className='text-neutral-500'>0305-4082035</p>
                   <a
-                    href='tel:+923001234567'
+                    href='tel:+923361401532'
                     className='text-main-600 fw-semibold text-decoration-underline mt-16'
                   >
                     Call Us Today!

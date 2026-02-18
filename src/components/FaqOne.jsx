@@ -31,7 +31,7 @@ const FaqOne = () => {
                   Find Answers to Your Questions
                 </h2>
                 <p className='text-neutral-500 text-line-2 wow bounceInUp'>
-                  Here are answers to some of the most common questions we receive about Strive Star Academy and our programs.
+                  Here are answers to some of the most common questions we receive about Strive Stars Academy and our programs.
                 </p>
               </div>
               <div className='accordion common-accordion' id='accordionExample'>
@@ -49,7 +49,7 @@ const FaqOne = () => {
                       aria-expanded='true'
                       aria-controls='collapseOne'
                     >
-                      How do I enroll my child at Strive Star Academy?
+                      What programs does Strive Stars Academy offer?
                     </button>
                   </h2>
                   <div
@@ -59,7 +59,7 @@ const FaqOne = () => {
                   >
                     <div className='accordion-body'>
                       <p className='accordion-body__desc'>
-                        Enrolling is easy! Simply contact us via phone or email to schedule a consultation. We&apos;ll assess your child&apos;s needs, discuss suitable programs, and complete the registration process. You can also visit our campus during office hours.
+                        We offer personalized coaching and professional guidance to help students excel in academics, entry tests, skill development, and overall confidence building. Our courses are structured to make learning easy and practical.
                       </p>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ const FaqOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseTwo'
                     >
-                      What programs do you offer?
+                      Who can join Strive Stars Academy?
                     </button>
                   </h2>
                   <div
@@ -88,7 +88,7 @@ const FaqOne = () => {
                   >
                     <div className='accordion-body'>
                       <p className='accordion-body__desc'>
-                        We offer comprehensive tutoring for Class 6-8, Class 9 & 10, Class 11 & 12 (all streams), O/A Levels (Cambridge), and IELTS preparation. Our programs cover all major subjects with personalized attention to each student.
+                        Our academy is open to students of all ages who are looking to strengthen their academic foundation, prepare for competitive exams, or improve specific skills with expert mentorship and support.
                       </p>
                     </div>
                   </div>
@@ -107,7 +107,7 @@ const FaqOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseThree'
                     >
-                      What are the class timings?
+                      How do I enroll in a course?
                     </button>
                   </h2>
                   <div
@@ -117,7 +117,7 @@ const FaqOne = () => {
                   >
                     <div className='accordion-body'>
                       <p className='accordion-body__desc'>
-                        We offer flexible class timings from Monday to Saturday, 9:00 AM to 7:00 PM. We work with students and parents to schedule classes at convenient times that suit everyone&apos;s schedule.
+                        Enrollment is simple! You can contact us via phone or visit our academy location in Lahore to get enrollment forms and guidance on course selection.
                       </p>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ const FaqOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseFour'
                     >
-                      How do you track student progress?
+                      Do you provide online classes?
                     </button>
                   </h2>
                   <div
@@ -146,7 +146,7 @@ const FaqOne = () => {
                   >
                     <div className='accordion-body'>
                       <p className='accordion-body__desc'>
-                        We conduct regular assessments and provide detailed progress reports to parents. We also schedule parent-teacher meetings to discuss student performance, strengths, and areas needing improvement.
+                        Yes! We offer flexible learning options including online support, study materials, and guidance so students can learn from home if needed.
                       </p>
                     </div>
                   </div>
@@ -165,7 +165,7 @@ const FaqOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseFive'
                     >
-                      What is your fee structure?
+                      Are there test preparation sessions available?
                     </button>
                   </h2>
                   <div
@@ -175,7 +175,36 @@ const FaqOne = () => {
                   >
                     <div className='accordion-body'>
                       <p className='accordion-body__desc'>
-                        Our fee structure varies based on the program and number of subjects. Please contact us directly for detailed information about fees. We offer competitive rates and flexible payment plans to make quality education accessible.
+                        Absolutely. We provide structured test preparation for academic exams, competitive tests, and skill-based challenges to make sure students are confident and ready on test day.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className='accordion-item'
+                  data-aos='fade-up-left'
+                  data-aos-duration={1400}
+                >
+                  <h2 className='accordion-header'>
+                    <button
+                      className='accordion-button collapsed'
+                      type='button'
+                      data-bs-toggle='collapse'
+                      data-bs-target='#collapseSix'
+                      aria-expanded='false'
+                      aria-controls='collapseSix'
+                    >
+                      How can parents track their child's progress?
+                    </button>
+                  </h2>
+                  <div
+                    id='collapseSix'
+                    className='accordion-collapse collapse'
+                    data-bs-parent='#accordionExample'
+                  >
+                    <div className='accordion-body'>
+                      <p className='accordion-body__desc'>
+                        Parents can stay updated through regular feedback sessions, progress reports, and teacher communication to understand how their child is improving.
                       </p>
                     </div>
                   </div>

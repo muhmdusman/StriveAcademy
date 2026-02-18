@@ -92,7 +92,7 @@ const FAQInnerOne = () => {
                         aria-expanded='true'
                         aria-controls='collapseOne'
                       >
-                        How do I enroll in a course?
+                        What programs does Strive Stars Academy offer?
                       </button>
                     </h2>
                     <div
@@ -102,9 +102,7 @@ const FAQInnerOne = () => {
                     >
                       <div className='accordion-body'>
                         <p className='accordion-body__desc'>
-                          Once you enroll in a course, you'll have unlimited
-                          access to the course materials for as long as the
-                          course is available on our platform.
+                          We offer personalized coaching and professional guidance to help students excel in academics, entry tests, skill development, and overall confidence building. Our courses are structured to make learning easy and practical.
                         </p>
                       </div>
                     </div>
@@ -119,7 +117,7 @@ const FAQInnerOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseTwo'
                       >
-                        Can I access my courses on mobile devices?
+                        Who can join Strive Stars Academy?
                       </button>
                     </h2>
                     <div
@@ -129,9 +127,7 @@ const FAQInnerOne = () => {
                     >
                       <div className='accordion-body'>
                         <p className='accordion-body__desc'>
-                          Once you enroll in a course, you'll have unlimited
-                          access to the course materials for as long as the
-                          course is available on our platform.
+                          Our academy is open to students of all ages who are looking to strengthen their academic foundation, prepare for competitive exams, or improve specific skills with expert mentorship and support.
                         </p>
                       </div>
                     </div>
@@ -146,7 +142,7 @@ const FAQInnerOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseThree'
                       >
-                        How long do I have access to a course?
+                        How do I enroll in a course?
                       </button>
                     </h2>
                     <div
@@ -156,9 +152,7 @@ const FAQInnerOne = () => {
                     >
                       <div className='accordion-body'>
                         <p className='accordion-body__desc'>
-                          Once you enroll in a course, you'll have unlimited
-                          access to the course materials for as long as the
-                          course is available on our platform.
+                          Enrollment is simple! You can contact us via phone or visit our academy location in Lahore to get enrollment forms and guidance on course selection.
                         </p>
                       </div>
                     </div>
@@ -173,7 +167,7 @@ const FAQInnerOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseFour'
                       >
-                        What if I need help or have questions during the course?
+                        Do you provide online classes?
                       </button>
                     </h2>
                     <div
@@ -183,9 +177,7 @@ const FAQInnerOne = () => {
                     >
                       <div className='accordion-body'>
                         <p className='accordion-body__desc'>
-                          Once you enroll in a course, you'll have unlimited
-                          access to the course materials for as long as the
-                          course is available on our platform.
+                          Yes! We offer flexible learning options including online support, study materials, and guidance so students can learn from home if needed.
                         </p>
                       </div>
                     </div>
@@ -200,7 +192,7 @@ const FAQInnerOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseFive'
                       >
-                        Do you offer refunds if I'm not satisfied with a course?
+                        Are there test preparation sessions available?
                       </button>
                     </h2>
                     <div
@@ -210,9 +202,7 @@ const FAQInnerOne = () => {
                     >
                       <div className='accordion-body'>
                         <p className='accordion-body__desc'>
-                          Once you enroll in a course, you'll have unlimited
-                          access to the course materials for as long as the
-                          course is available on our platform.
+                          Absolutely. We provide structured test preparation for academic exams, competitive tests, and skill-based challenges to make sure students are confident and ready on test day.
                         </p>
                       </div>
                     </div>
@@ -288,7 +278,7 @@ const FAQInnerOne = () => {
                         aria-expanded='true'
                         aria-controls='collapseOneEducation'
                       >
-                        How do I enroll in a course?
+                        How can parents track their child's progress?
                       </button>
                     </h2>
                     <div
@@ -298,9 +288,7 @@ const FAQInnerOne = () => {
                     >
                       <div className='accordion-body'>
                         <p className='accordion-body__desc'>
-                          Once you enroll in a course, you'll have unlimited
-                          access to the course materials for as long as the
-                          course is available on our platform.
+                          Parents can stay updated through regular feedback sessions, progress reports, and teacher communication to understand how their child is improving.
                         </p>
                       </div>
                     </div>

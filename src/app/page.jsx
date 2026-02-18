@@ -1,9 +1,11 @@
 import AboutOne from "@/components/AboutOne";
 import BannerOne from "@/components/BannerOne";
+import FaqOne from "@/components/FaqOne";
 import FeaturesOne from "@/components/FeaturesOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import ResultsSection from "@/components/ResultsSection";
+import TestimonialsOne from "@/components/TestimonialsOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -32,6 +34,11 @@ const page = () => {
 
       {/* Section 4 - Results & Progress */}
       <ResultsSection />
+      
+      <TestimonialsOne />
+
+      {/* Section 5 - Frequently Asked Questions */}
+      <FaqOne />
 
       {/* FooterOne */}
       <FooterOne />

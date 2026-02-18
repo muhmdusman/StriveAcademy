@@ -6,161 +6,183 @@ const TermsConditionsInner = () => {
           <div className='col-lg-8'>
             <div className='d-flex flex-column gap-40'>
               <div>
-                <h1 className='mb-16'>Terms and Conditions</h1>
+                <h1 className='mb-16'>Terms & Conditions</h1>
+                <h4 className='mb-16'>Strive Stars Academy</h4>
                 <p className='text-neutral-700'>
-                  Welcome to Strive Star Academy. By enrolling in our programs or using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+                  <strong>Last Updated:</strong> 2/18/2026
+                </p>
+                <p className='text-neutral-700 mt-24'>
+                  Welcome to Strive Stars Academy. By enrolling in our courses, visiting our premises, or using our website, you agree to comply with the following Terms & Conditions.
                 </p>
               </div>
 
               <div>
-                <h3 className='mb-16'>1. Enrollment and Registration</h3>
+                <h3 className='mb-16'>1. Enrollment & Admission</h3>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Students must complete the registration process and provide accurate information during enrollment.
+                    Admission is granted after completion of the registration process and payment of required fees.
                   </li>
                   <li className='text-neutral-700'>
-                    Enrollment is subject to availability and acceptance by Strive Star Academy.
+                    The academy reserves the right to accept or reject any application without obligation to provide a reason.
                   </li>
                   <li className='text-neutral-700'>
-                    Parents/guardians must provide emergency contact information and any relevant medical or learning needs.
+                    Students must provide accurate personal and academic information during registration.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4 className='mb-16'>2. Tuition Fees and Payment</h4>
+                <h4 className='mb-16'>2. Fees & Payments</h4>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Tuition fees must be paid in advance as per the agreed payment schedule.
+                    All fees must be paid in advance according to the selected course plan.
                   </li>
                   <li className='text-neutral-700'>
-                    Late payments may result in suspension of classes until payment is received.
+                    Fees are non-refundable, unless otherwise stated in writing by management.
                   </li>
                   <li className='text-neutral-700'>
-                    Refunds are subject to our refund policy and must be requested in writing.
+                    Failure to pay fees on time may result in suspension of classes.
+                  </li>
+                  <li className='text-neutral-700'>
+                    The academy reserves the right to revise fee structures with prior notice.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>3. Attendance and Punctuality</h5>
+                <h5 className='mb-16'>3. Attendance & Discipline</h5>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Regular attendance is essential for academic progress. Students must attend all scheduled classes.
+                    Students are expected to maintain regular attendance.
                   </li>
                   <li className='text-neutral-700'>
-                    In case of absence, prior notice must be provided to the academy.
+                    Late arrival, disruptive behavior, or misconduct will not be tolerated.
                   </li>
                   <li className='text-neutral-700'>
-                    Makeup classes may be provided at the discretion of the academy and tutor availability.
+                    Strive Stars Academy reserves the right to suspend or expel any student involved in misconduct without fee refund.
+                  </li>
+                  <li className='text-neutral-700'>
+                    Respect towards teachers, staff, and fellow students is mandatory.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>4. Code of Conduct</h5>
+                <h5 className='mb-16'>4. Academic Performance</h5>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Students are expected to maintain respectful behavior towards tutors and fellow students.
+                    While we strive to provide quality education and guidance, we do not guarantee specific grades, results, or examination outcomes.
                   </li>
                   <li className='text-neutral-700'>
-                    Any form of misconduct, cheating, or plagiarism will result in disciplinary action.
-                  </li>
-                  <li className='text-neutral-700'>
-                    Students must come prepared for classes with necessary materials and completed assignments.
+                    Student success depends on individual effort, attendance, and participation.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>5. Assessment and Progress Reports</h5>
+                <h5 className='mb-16'>5. Class Schedule & Changes</h5>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Regular assessments will be conducted to track student progress.
+                    The academy reserves the right to modify class schedules, instructors, or course content when necessary.
                   </li>
                   <li className='text-neutral-700'>
-                    Progress reports will be shared with parents/guardians on a scheduled basis.
-                  </li>
-                  <li className='text-neutral-700'>
-                    Parent-teacher meetings may be arranged to discuss student performance.
+                    In case of public holidays or unavoidable circumstances, classes may be rescheduled.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>6. Cancellation and Withdrawal</h5>
+                <h5 className='mb-16'>6. Online Classes (If Applicable)</h5>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Students may withdraw from the program with 15 days written notice.
+                    Students are responsible for having a stable internet connection and necessary devices.
                   </li>
                   <li className='text-neutral-700'>
-                    The academy reserves the right to cancel classes due to unforeseen circumstances. In such cases, makeup classes will be arranged or fees will be adjusted.
-                  </li>
-                  <li className='text-neutral-700'>
-                    Refunds for withdrawal are subject to the academy&apos;s refund policy.
+                    Recording or distributing online sessions without written permission is strictly prohibited.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>7. Intellectual Property</h5>
+                <h5 className='mb-16'>7. Code of Conduct</h5>
+                <p className='text-neutral-700 mb-16'>Students must:</p>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    All study materials, notes, and resources provided by Strive Star Academy are for personal educational use only.
+                    Maintain discipline inside and outside the academy premises.
                   </li>
                   <li className='text-neutral-700'>
-                    Students may not copy, distribute, or share academy materials without permission.
+                    Avoid use of abusive language or inappropriate behavior.
+                  </li>
+                  <li className='text-neutral-700'>
+                    Refrain from damaging academy property.
+                  </li>
+                  <li className='text-neutral-700'>
+                    Any damage to property will be charged to the responsible student.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>8. Liability and Disclaimer</h5>
+                <h5 className='mb-16'>8. Privacy Policy</h5>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    While we strive for academic excellence, Strive Star Academy does not guarantee specific examination results.
+                    Student information is kept confidential and used only for academic and administrative purposes.
                   </li>
                   <li className='text-neutral-700'>
-                    The academy is not liable for any personal injury or loss of personal belongings on the premises.
-                  </li>
-                  <li className='text-neutral-700'>
-                    Students are responsible for their own safety during travel to and from the academy.
+                    The academy will not share personal information with third parties without consent, unless required by law.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>9. Privacy and Data Protection</h5>
+                <h5 className='mb-16'>9. Limitation of Liability</h5>
+                <p className='text-neutral-700 mb-16'>Strive Stars Academy shall not be held responsible for:</p>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    We respect student and parent privacy. Personal information is collected only for administrative and educational purposes.
+                    Personal belongings lost or damaged on the premises.
                   </li>
                   <li className='text-neutral-700'>
-                    Student data will not be shared with third parties without consent, except where required by law.
+                    Any personal injury occurring due to negligence of the student.
+                  </li>
+                  <li className='text-neutral-700'>
+                    External examination decisions or results.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h5 className='mb-16'>10. Amendments to Terms</h5>
+                <h5 className='mb-16'>10. Amendments</h5>
                 <ul className='list-dotted d-flex flex-column gap-24'>
                   <li className='text-neutral-700'>
-                    Strive Star Academy reserves the right to modify these terms and conditions at any time.
-                  </li>
-                  <li className='text-neutral-700'>
-                    Any changes will be communicated to enrolled students and parents via email or notice.
+                    The academy reserves the right to update or modify these Terms & Conditions at any time. Updated policies will be posted on the official notice board or website.
                   </li>
                 </ul>
+              </div>
+
+              <div>
+                <h5 className='mb-16'>11. Contact Information</h5>
+                <p className='text-neutral-700 mb-16'>For any questions regarding these Terms & Conditions, please contact:</p>
+                <div className='text-neutral-700'>
+                  <p className='mb-8'><strong>Strive Stars Academy</strong></p>
+                  <p className='mb-8'>
+                    <i className='ph ph-phone me-2' />
+                    0336-1401532
+                  </p>
+                  <p className='mb-8'>
+                    <i className='ph ph-phone me-2' />
+                    0348-4396862
+                  </p>
+                  <p className='mb-8'>
+                    <i className='ph ph-phone me-2' />
+                    0305-4082035
+                  </p>
+                  <p className='mb-0'>
+                    <i className='ph ph-envelope me-2' />
+                    Strivestarsacademy01@gmail.com
+                  </p>
+                </div>
               </div>
             </div>
-
-            <p className='text-neutral-700 mt-32'>
-              By enrolling with Strive Star Academy, you acknowledge that you have read, understood, and agreed to these terms and conditions. If you have any questions or concerns, please contact us.
-            </p>
-
-            <p className='text-neutral-700 mt-24'>
-              <strong>Last Updated:</strong> February 2026
-            </p>
           </div>
 
           <div className='col-lg-4'>
@@ -171,11 +193,19 @@ const TermsConditionsInner = () => {
                 <h6 className='text-lg mb-12'>Contact Us</h6>
                 <p className='text-neutral-500 text-sm mb-8'>
                   <i className='ph ph-phone me-2' />
-                  +92 300 1234567
+                  0336-1401532
+                </p>
+                <p className='text-neutral-500 text-sm mb-8'>
+                  <i className='ph ph-phone me-2' />
+                  0348-4396862
+                </p>
+                <p className='text-neutral-500 text-sm mb-8'>
+                  <i className='ph ph-phone me-2' />
+                  0305-4082035
                 </p>
                 <p className='text-neutral-500 text-sm mb-0'>
                   <i className='ph ph-envelope me-2' />
-                  info@strivestaracademy.com
+                  Strivestarsacademy01@gmail.com
                 </p>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />

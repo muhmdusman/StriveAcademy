@@ -31,7 +31,7 @@ const FooterOne = () => {
                 <ul className='social-list flex-align gap-24'>
                   <li className='social-list__item'>
                     <Link
-                      href='https://www.facebook.com'
+                      href='https://www.facebook.com/share/1Ar9JLcdw1/'
                       className='text-main-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-facebook-logo' />
@@ -55,7 +55,7 @@ const FooterOne = () => {
                   </li>
                   <li className='social-list__item'>
                     <Link
-                      href='https://www.instagram.com'
+                      href='https://www.instagram.com/strivestarsacademy/?hl=en'
                       className='text-main-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-instagram-logo' />
@@ -134,16 +134,22 @@ const FooterOne = () => {
                   </span>
                   <div>
                     <Link
-                      href='tel:+923001234567'
+                      href='tel:+923361401532'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
-                      +92 300 1234567
+                      0336-1401532
                     </Link>
                     <Link
-                      href='tel:+923007654321'
+                      href='tel:+923484396862'
+                      className='text-neutral-500 d-block hover-text-main-600 mb-4'
+                    >
+                      0348-4396862
+                    </Link>
+                    <Link
+                      href='tel:+923054082035'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
-                      +92 300 7654321
+                      0305-4082035
                     </Link>
                   </div>
                 </div>
@@ -153,16 +159,10 @@ const FooterOne = () => {
                   </span>
                   <div>
                     <Link
-                      href='mailto:info@strivestaracademy.com'
-                      className='text-neutral-500 d-block hover-text-main-600 mb-4'
-                    >
-                      info@strivestaracademy.com
-                    </Link>
-                    <Link
-                      href='mailto:admissions@strivestaracademy.com'
+                      href='mailto:Strivestarsacademy01@gmail.com'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
-                      admissions@strivestaracademy.com
+                      Strivestarsacademy01@gmail.com
                     </Link>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ const FooterOne = () => {
           <div className='container container-two'>
             <div className='bottom-footer__inner flex-between gap-3 flex-wrap'>
               <p className='bottom-footer__text'>
-                Copyright © 2026 <span className='fw-semibold'>Strive Star Academy </span>
+                Copyright © 2014 <span className='fw-semibold'>Strive Star Academy </span>
                 All Rights Reserved.
               </p>
               <div className='footer-links'>
