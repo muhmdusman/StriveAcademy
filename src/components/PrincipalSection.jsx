@@ -85,20 +85,14 @@ const PrincipalSection = () => {
                                     Founder &amp; Principal, Strive Star Academy
                                 </p>
 
-                                {/* Placeholder paragraphs — content to be provided */}
                                 <p className="text-neutral-500 wow bounceInUp mb-16">
-                                    [Principal description content will be provided. This section
-                                    will highlight the principal&apos;s academic background,
-                                    qualifications, and vision for Strive Star Academy.]
+                                    With over 12 years of experience in science education and academic leadership, the Principal holds an MPhil in Applied Physics, bringing a deep understanding of both subject matter and student development to the academy.
                                 </p>
                                 <p className="text-neutral-500 wow bounceInUp mb-16">
-                                    [Details about teaching philosophy, experience, and commitment
-                                    to student excellence in Pakistan&apos;s educational
-                                    landscape.]
+                                    Under this leadership, the academy focuses on empowering learners, strengthening fundamentals, and fostering confidence across all academic levels. The Principal champions a student-centered learning environment that blends conceptual clarity with practical application, ensuring every learner is well-prepared for academic challenges and future success.
                                 </p>
                                 <p className="text-neutral-500 wow bounceInUp">
-                                    [Information about achievements, affiliations, and the
-                                    academy&apos;s growth under their leadership.]
+                                    Driven by a commitment to excellence, the Principal emphasizes modern teaching practices, structured support, and continuous improvement, helping students achieve outstanding results and build strong foundations for higher education.
                                 </p>
                             </div>
 
