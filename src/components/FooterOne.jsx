@@ -1,28 +1,18 @@
 import Link from "next/link";
+import LogoSVG from "./LogoSVG";
 
 const FooterOne = () => {
   return (
     <footer className='footer bg-main-25 position-relative z-1'>
-      {/* <img
-        src='assets/images/Logo.jpg'
-        alt=''
-        className='shape five animation-scalation'
-      /> */}
-      {/* <img
-        src='assets/images/Logo.jpg'
-        alt=''
-        className='shape one animation-scalation'
-      /> */}
       <div className='py-120 '>
         <div className='container container-two'>
           <div className='row row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
-            {/* Column 1: Logo + About */}
+            Column 1: Logo + About
             <div className='col' data-aos='fade-up' data-aos-duration={300}>
               <div className='footer-item'>
                 <div className='footer-item__logo mb-24'>
                   <Link href='/' className='flex-align gap-10'>
-                    <img src='assets/images/Logo.jpg' alt='Strive Star Academy' />
-
+                    <LogoSVG className="academy-logo-svg" style={{ maxWidth: '100%', height: 'auto', width: '260px' }} />
                   </Link>
                 </div>
                 <p className='my-32'>

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "923361401532"; // Replace with real number later
+const WHATSAPP_NUMBER = "923361401532";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const WhatsAppIcon = ({ size = 24, color = "#fff" }) => (

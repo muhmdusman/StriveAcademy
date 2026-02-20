@@ -3,16 +3,6 @@ import Link from "next/link";
 const AboutOne = () => {
   return (
     <section className='about py-120 position-relative z-1 mash-bg-main mash-bg-main-two'>
-      <img
-        src='assets/images/shapes/shape2.png'
-        alt=''
-        className='shape one animation-scalation'
-      />
-      <img
-        src='assets/images/shapes/shape6.png'
-        alt=''
-        className='shape four animation-scalation'
-      />
       <div className='position-relative'>
         <div className='container'>
           <div className='row gy-xl-0 gy-5 flex-wrap-reverse align-items-center'>

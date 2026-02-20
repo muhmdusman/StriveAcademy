@@ -8,24 +8,13 @@ const TestimonialsOne = () => {
         const $ = (await import("jquery")).default;
         require("slick-carousel");
 
-        const thumbsSlider = $(".testimonials__thumbs-slider");
         const mainSlider = $(".testimonials__slider");
 
-        if (thumbsSlider.length && mainSlider.length) {
+        if (mainSlider.length) {
           // Initialize the sliders
-          thumbsSlider.slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            rtl: $("html").attr("dir") === "rtl",
-            asNavFor: ".testimonials__slider",
-          });
-
           mainSlider.slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            asNavFor: ".testimonials__thumbs-slider",
             dots: false,
             arrows: true,
             rtl: $("html").attr("dir") === "rtl",
@@ -43,13 +32,12 @@ const TestimonialsOne = () => {
       if (typeof window !== "undefined") {
         const $ = require("jquery");
         // Destroy sliders on unmount
-        $(".testimonials__thumbs-slider").slick("unslick");
         $(".testimonials__slider").slick("unslick");
       }
     };
   }, []);
   return (
-    <section className='testimonials py-120 position-relative z-1 bg-main-25'>
+    <section className='testimonials py-80 py-md-120 position-relative z-1 bg-main-25' style={{ height: 'auto' }}>
       <img
         src='assets/images/shapes/shape2.png'
         alt=''
@@ -62,53 +50,17 @@ const TestimonialsOne = () => {
       />
       <div className='container'>
         <div className='row gy-5'>
-          <div className='col-lg-6'>
-            <div className='testimonials__thumbs-slider pe-lg-5 me-xxl-5'>
-              <div
-                className='testimonials__thumbs wow bounceIn'
-                data-tilt=''
-                data-tilt-max={15}
-                data-tilt-speed={500}
-                data-tilt-perspective={5000}
-                data-tilt-full-page-listening=''
-              >
-                <img src='assets/images/Arham khan.jpg' alt='Arsam Khan' />
-              </div>
-              <div
-                className='testimonials__thumbs wow bounceIn'
-                data-tilt=''
-                data-tilt-max={15}
-                data-tilt-speed={500}
-                data-tilt-perspective={5000}
-                data-tilt-full-page-listening=''
-              >
-                <img src='assets/images/ibrahimkhan.png' alt='Ibrahim Khan' />
-              </div>
-              <div
-                className='testimonials__thumbs wow bounceIn'
-                data-tilt=''
-                data-tilt-max={15}
-                data-tilt-speed={500}
-                data-tilt-perspective={5000}
-                data-tilt-full-page-listening=''
-              >
-                <img src='assets/images/Humaira Mehmood.jpg' alt='Humaira Mehmood' />
-              </div>
-              <div
-                className='testimonials__thumbs wow bounceIn'
-                data-tilt=''
-                data-tilt-max={15}
-                data-tilt-speed={500}
-                data-tilt-perspective={5000}
-                data-tilt-full-page-listening=''
-              >
-                <img src='assets/images/Sheikh Usman.jpg' alt='Sheikh Usama' />
-              </div>
-            </div>
-          </div>
-          <div className='col-lg-6'>
-            <div className='testimonials__content'>
-              <div className='section-heading style-left'>
+          <div className='col-lg-8 col-xl-7 mx-auto'>
+            <div className='testimonials__content text-center'>
+              <style>{`
+                .testimonials__content .flex-align { justify-content: center; }
+                .testimonials__content p, .testimonials__content h4, .testimonials__content span { text-align: center; }
+                .testimonials__content .section-heading { margin-bottom: 24px; }
+                @media (max-width: 767px) {
+                  .testimonials { padding: 60px 0 !important; }
+                }
+              `}</style>
+              <div className='section-heading text-center'>
                 <div className='flex-align gap-8 mb-16 wow bounceInDown'>
                   <span className='w-8 h-8 bg-main-600 rounded-circle' />
                   <h5 className='text-main-600 mb-0'>What Our Students Say</h5>
@@ -266,7 +218,7 @@ const TestimonialsOne = () => {
                   </span>
                 </div>
               </div>
-              <div className='flex-align gap-16 mt-40'>
+              <div className='flex-align justify-content-center gap-16 mt-40'>
                 <button
                   type='button'
                   id='testimonials-prev'

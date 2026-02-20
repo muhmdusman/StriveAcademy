@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import LogoSVG from "./LogoSVG";
 // 
 const HeaderOne = () => {
   let pathname = usePathname();
@@ -50,7 +51,7 @@ const HeaderOne = () => {
               {/* Logo Start */}
               <div className='logo'>
                 <Link href='/' className='link flex-align gap-10'>
-                  <img src='assets/images/logo.jpg' alt='Strive Star Academy' />
+                  <LogoSVG className="academy-logo-svg" style={{ maxWidth: '100%', height: 'auto', width: '144px' }} />
                 </Link>
               </div>
               {/* Logo End  */}
@@ -96,7 +97,7 @@ const HeaderOne = () => {
         </button>
         <div className='mobile-menu__inner'>
           <Link href='/' className='mobile-menu__logo flex-align gap-10'>
-            <img src='assets/images/logo/logo.png' alt='Strive Star Academy' />
+            <LogoSVG className="academy-logo-svg" style={{ maxWidth: '100%', height: 'auto', width: '180px' }} />
           </Link>
           <div className='mobile-menu__menu'>
             <ul className='nav-menu flex-align nav-menu--mobile'>

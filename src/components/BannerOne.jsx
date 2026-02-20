@@ -89,39 +89,68 @@ const BannerOne = () => {
                 data-tilt-scale='1.02'
               />
               {/* curve-arrow decorative asset removed */}
-              <div
-                className='banner-box one px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg d-inline-block'
-                data-aos='fade-down'
-              >
-                <span className='text-main-600'>Expert</span> Qualified Teachers
-                <div className='mt-12'>
-                  <span className='text-neutral-500 text-sm'>Personalized learning for every student</span>
+              <div className="banner-boxes-wrapper">
+                <style>{`
+                  @media (max-width: 767px) {
+                    .banner-boxes-wrapper {
+                      display: grid;
+                      grid-template-columns: 1fr 1fr;
+                      gap: 16px;
+                      margin-top: 24px;
+                      position: relative;
+                      z-index: 10;
+                    }
+                    .banner-boxes-wrapper .banner-box {
+                      position: static !important;
+                      transform: none !important;
+                      width: 100% !important;
+                      padding: 16px !important;
+                      animation: none !important;
+                    }
+                    .banner-boxes-wrapper .banner-box.three {
+                      grid-column: span 2;
+                    }
+                    .banner-box__icon {
+                      width: 36px !important;
+                      height: 36px !important;
+                      font-size: 18px !important;
+                    }
+                  }
+                `}</style>
+                <div
+                  className='banner-box one px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg d-inline-block'
+                  data-aos='fade-down'
+                >
+                  <span className='text-main-600'>Expert</span> Qualified Teachers
+                  <div className='mt-12'>
+                    <span className='text-neutral-500 text-sm'>Personalized learning for every student</span>
+                  </div>
                 </div>
-              </div>
-              <div
-                className='banner-box two px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg flex-align d-inline-flex gap-16'
-                data-aos='fade-up'
-              >
-                <span className='banner-box__icon flex-shrink-0 w-48 h-48 bg-purple-400 text-white text-2xl flex-center rounded-circle'>
-                  <i className='ph ph-graduation-cap' />
-                </span>
-                <div>
-                  <h6 className='mb-4'>All Levels</h6>
-                  <span className=''>Class 6 to A-Levels</span>
-                </div>
-              </div>
-              <div
-                className='banner-box three px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg flex-align d-inline-flex gap-16'
-                data-aos='fade-left'
-              >
-                <span className='banner-box__icon flex-shrink-0 w-48 h-48 bg-main-50 text-main-600 text-2xl flex-center rounded-circle'>
-                  <i className='ph ph-certificate' />
-                </span>
-                <div>
-                  <span className=''>IELTS Preparation</span>
-                  <span className='mt-8 fw-medium text-sm d-block text-main-600'>
-                    Score Higher with Us
+                <div
+                  className='banner-box two px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg flex-align d-inline-flex gap-16'
+                  data-aos='fade-up'
+                >
+                  <span className='banner-box__icon flex-shrink-0 w-48 h-48 bg-purple-400 text-white text-2xl flex-center rounded-circle'>
+                    <i className='ph ph-graduation-cap' />
                   </span>
+                  <div>
+                    <h6 className='mb-4'>All Levels</h6>
+                    <span className='text-sm'>Class 6 to A-Levels</span>
+                  </div>
+                </div>
+                <div
+                  className='banner-box three px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg flex-align d-inline-flex gap-16'
+                  data-aos='fade-left'
+                >
+                  <span className='banner-box__icon flex-shrink-0 w-48 h-48 bg-main-50 text-main-600 text-2xl flex-center rounded-circle'>
+                    <i className='ph ph-certificate' />
+                  </span>
+                  <div>
+                    <span className=''>IELTS Preparation</span>
+                    <span className='mt-8 fw-medium text-sm d-block text-main-600'>
+                      Score Higher with Us
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
