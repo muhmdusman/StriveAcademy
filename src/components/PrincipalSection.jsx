@@ -79,7 +79,7 @@ const PrincipalSection = () => {
                         <div className="ps-lg-5">
                             <div className="mb-32">
                                 <h3 className="mb-8 wow bounceIn">
-                                    [Principal&apos;s Name]
+                                    Bilal Jafar
                                 </h3>
                                 <p className="text-main-600 fw-semibold mb-24">
                                     Founder &amp; Principal, Strive Star Academy

@@ -2,6 +2,7 @@
 /* ============= Footer Start Here ======================= */
 .footer {
     margin-block-start: auto;
+    padding-inline: 1rem;
 }
 
 
@@ -16,6 +17,56 @@
                 max-height: 64px;
             }
         }
+    }
+}
+// Responsive Footer Grid
+.footer .container-two {
+    width: 100%;
+    padding: 0;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer .col {
+    flex: 1 1 100%;
+    min-width: 0;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 576px) {
+    .footer .col {
+        flex: 1 1 48%;
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer .col {
+        flex: 1 1 0;
+        max-width: 33.3333%;
+        margin-bottom: 0;
+    }
+    .footer .row {
+        gap: 0;
+    }
+}
+
+// Responsive bottom footer
+.bottom-footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+@media (min-width: 576px) {
+    .bottom-footer__inner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
     }
 }
 /* Footer List Item */

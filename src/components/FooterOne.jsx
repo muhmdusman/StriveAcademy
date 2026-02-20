@@ -4,10 +4,10 @@ import LogoSVG from "./LogoSVG";
 const FooterOne = () => {
   return (
     <footer className='footer bg-main-25 position-relative z-1'>
-      <div className='py-120 '>
+      <div className='py-60 '>
         <div className='container container-two'>
           <div className='row row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
-            Column 1: Logo + About
+           
             <div className='col' data-aos='fade-up' data-aos-duration={300}>
               <div className='footer-item'>
                 <div className='footer-item__logo mb-24'>
