@@ -1,6 +1,7 @@
 import BootstrapInit from "@/helper/BootstrapInit";
 import RouteScrollToTop from "@/helper/RouteScrollToTop";
 import LoadPhosphorIcons from "@/helper/LoadPhosphorIcons";
+import WhatsAppFAB from "@/components/WhatsAppFAB";
 
 import "./font.css";
 import "./globals.scss";
@@ -13,13 +14,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body suppressHydrationWarning={true}>
         <BootstrapInit />
         <LoadPhosphorIcons />
 
-        <RouteScrollToTop />
-        {children}
+        {/* <RouteScrollToTop /> */}
+       {children} 
+
+        {/* WhatsApp Floating Action Button - visible on all pages */}
+        <WhatsAppFAB />
       </body>
     </html>
   );

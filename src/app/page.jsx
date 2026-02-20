@@ -6,12 +6,16 @@ import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import ResultsSection from "@/components/ResultsSection";
 import TestimonialsOne from "@/components/TestimonialsOne";
+import TopAchieversSlider from "@/components/TopAchieversSlider";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
-  title: "Strive Star Academy - Knowledge is Power",
+  title:
+    "Strive Star Academy | Best Tutors in Pakistan – Class 6–12, O/A Levels & IELTS",
   description:
-    "Strive Star Academy offers expert tutoring for Class 6-8, Class 9 & 10, Class 11 & 12, O/A Levels, and IELTS preparation. Empowering students to achieve academic excellence.",
+    "Strive Star Academy is a leading study academy in Lahore, Pakistan offering expert tutoring for Class 6–8, Class 9–10, Class 11–12, O-Level, A-Level, and IELTS preparation. Achieve top grades in Matric, FSc, and Cambridge board exams with our qualified tutors and personalized learning programs.",
+  keywords:
+    "Strive Star Academy, study academy Pakistan, tuition centre Lahore, IELTS preparation Pakistan, O-Level tutor, A-Level tutor, Matric preparation, FSc classes, best academy Pakistan, private tutoring Lahore",
 };
 
 const page = () => {
@@ -34,10 +38,14 @@ const page = () => {
 
       {/* Section 4 - Results & Progress */}
       <ResultsSection />
-      
+
+      {/* Section 5 - Our Top Achievers Image Slider */}
+      <TopAchieversSlider />
+
+      {/* Section 6 - Testimonials */}
       <TestimonialsOne />
 
-      {/* Section 5 - Frequently Asked Questions */}
+      {/* Section 7 - Frequently Asked Questions */}
       <FaqOne />
 
       {/* FooterOne */}

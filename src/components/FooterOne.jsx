@@ -3,16 +3,16 @@ import Link from "next/link";
 const FooterOne = () => {
   return (
     <footer className='footer bg-main-25 position-relative z-1'>
-      <img
-        src='assets/images/shapes/shape2.png'
+      {/* <img
+        src='assets/images/Logo.jpg'
         alt=''
         className='shape five animation-scalation'
-      />
-      <img
-        src='assets/images/shapes/shape6.png'
+      /> */}
+      {/* <img
+        src='assets/images/Logo.jpg'
         alt=''
         className='shape one animation-scalation'
-      />
+      /> */}
       <div className='py-120 '>
         <div className='container container-two'>
           <div className='row row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
@@ -21,12 +21,12 @@ const FooterOne = () => {
               <div className='footer-item'>
                 <div className='footer-item__logo mb-24'>
                   <Link href='/' className='flex-align gap-10'>
-                    <img src='assets/images/logo/logo.png' alt='Strive Star Academy' />
-                    <span className='fw-bold text-main-600' style={{ fontSize: '1.1rem' }}>Strive Star Academy</span>
+                    <img src='assets/images/Logo.jpg' alt='Strive Star Academy' />
+
                   </Link>
                 </div>
                 <p className='my-32'>
-                  Empowering students to achieve academic excellence through personalized tutoring and expert guidance. From Class 6 to A-Levels and IELTS preparation.
+                  Empowering students to achieve academic excellence through personalized teaching and expert guidance. From Class 6 to A-Levels and IELTS preparation.
                 </p>
                 <ul className='social-list flex-align gap-24'>
                   <li className='social-list__item'>
@@ -39,10 +39,11 @@ const FooterOne = () => {
                   </li>
                   <li className='social-list__item'>
                     <Link
-                      href='https://www.twitter.com'
+                      href='mailto:Strivestarsacademy01@gmail.com'
                       className='text-main-600 text-2xl hover-text-main-two-600'
+                      aria-label='Email Strive Star Academy'
                     >
-                      <i className='ph-bold ph-twitter-logo' />
+                      <i className='ph-bold ph-envelope-simple' />
                     </Link>
                   </li>
                   <li className='social-list__item'>
@@ -64,7 +65,7 @@ const FooterOne = () => {
                 </ul>
               </div>
             </div>
-            
+
             {/* Column 2: Navigation */}
             <div className='col' data-aos='fade-up' data-aos-duration={400}>
               <div className='footer-item'>
@@ -123,7 +124,7 @@ const FooterOne = () => {
                 </ul>
               </div>
             </div>
-            
+
             {/* Column 3: Contact Details */}
             <div className='col' data-aos='fade-up' data-aos-duration={600}>
               <div className='footer-item'>

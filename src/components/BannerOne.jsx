@@ -75,9 +75,10 @@ const BannerOne = () => {
           <div className='col-xl-6'>
             <div className='banner-thumb position-relative'>
               <img
-                src='assets/images/thumbs/banner-img.png'
-                alt=''
-                className='banner-thumb__img rounded-12 wow bounceIn'
+                src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=800&q=80&auto=format&fit=crop'
+                alt='Student achieving academic excellence with expert tutoring at Strive Star Academy Pakistan'
+                className='banner-thumb__img rounded-12 wow bounceIn w-100'
+                style={{ objectFit: 'cover', maxHeight: '520px' }}
                 data-wow-duration='3s'
                 data-wow-delay='.5s'
                 data-tilt=''
@@ -87,16 +88,12 @@ const BannerOne = () => {
                 data-tilt-full-page-listening=''
                 data-tilt-scale='1.02'
               />
-              <img
-                src='assets/images/shapes/curve-arrow.png'
-                alt=''
-                className='curve-arrow position-absolute'
-              />
+              {/* curve-arrow decorative asset removed */}
               <div
                 className='banner-box one px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg d-inline-block'
                 data-aos='fade-down'
               >
-                <span className='text-main-600'>Expert</span> Qualified Tutors
+                <span className='text-main-600'>Expert</span> Qualified Teachers
                 <div className='mt-12'>
                   <span className='text-neutral-500 text-sm'>Personalized learning for every student</span>
                 </div>

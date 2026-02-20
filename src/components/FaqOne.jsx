@@ -6,8 +6,10 @@ const FaqOne = () => {
           <div className='col-lg-6 d-lg-block d-none'>
             <div className='faq-thumb'>
               <img
-                src='assets/images/thumbs/faq-img.png'
-                alt='FAQ'
+                src='https://images.unsplash.com/photo-1509062522246-3755977927d7?w=720&q=80&auto=format&fit=crop'
+                alt='Expert teacher conducting an interactive class at Strive Star Academy Lahore'
+                className='rounded-16 w-100'
+                style={{ objectFit: 'cover', maxHeight: '520px' }}
                 data-tilt=''
                 data-tilt-max={6}
                 data-tilt-speed={500}

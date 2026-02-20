@@ -18,17 +18,14 @@ const AboutOne = () => {
           <div className='row gy-xl-0 gy-5 flex-wrap-reverse align-items-center'>
             <div className='col-xl-6'>
               <div className='about-thumbs position-relative pe-lg-5'>
-                <img
-                  src='assets/images/shapes/shape7.png'
-                  alt=''
-                  className='shape seven animation-scalation'
-                />
+                {/* shape removed – replaced by real content images */}
                 <div className='row gy-4'>
                   <div className='col-sm-6'>
                     <img
-                      src='assets/images/thumbs/about-img1.png'
-                      alt='About Strive Star Academy'
+                      src='https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&q=80&auto=format&fit=crop'
+                      alt='Students studying diligently at Strive Star Academy, Lahore Pakistan'
                       className='rounded-12 w-100'
+                      style={{ objectFit: 'cover', height: '260px' }}
                     />
                   </div>
                   <div className='col-sm-6'>
@@ -38,13 +35,14 @@ const AboutOne = () => {
                         data-aos='fade-right'
                       >
                         <h2 className='mb-0 text-white'>Expert</h2>
-                        <span className='text-white'>Qualified Tutors</span>
+                        <span className='text-white'>Qualified Instructors</span>
                       </div>
                     </div>
                     <img
-                      src='assets/images/thumbs/about-img2.png'
-                      alt='Learning Environment'
+                      src='https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80&auto=format&fit=crop'
+                      alt='Modern classroom and learning environment at Strive Star Academy Pakistan'
                       className='rounded-12 w-100'
+                      style={{ objectFit: 'cover', height: '200px' }}
                     />
                   </div>
                 </div>

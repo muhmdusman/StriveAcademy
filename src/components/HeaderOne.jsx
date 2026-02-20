@@ -50,7 +50,7 @@ const HeaderOne = () => {
               {/* Logo Start */}
               <div className='logo'>
                 <Link href='/' className='link flex-align gap-10'>
-                  <img src='assets/images/logo/logo.png' alt='Strive Star Academy' />
+                  <img src='assets/images/logo.jpg' alt='Strive Star Academy' />
                 </Link>
               </div>
               {/* Logo End  */}
@@ -63,9 +63,8 @@ const HeaderOne = () => {
                   {menuItems.map((item, index) => (
                     <li
                       key={`menu-item-${index}`}
-                      className={`nav-menu__item ${
-                        pathname === item.href ? "activePage" : ""
-                      }`}
+                      className={`nav-menu__item ${pathname === item.href ? "activePage" : ""
+                        }`}
                     >
                       <Link href={item.href} className='nav-menu__link'>
                         {item.label}
@@ -89,9 +88,8 @@ const HeaderOne = () => {
       </header>
 
       <div
-        className={`mobile-menu scroll-sm d-lg-none d-block ${
-          isMenuActive ? "active" : ""
-        }`}
+        className={`mobile-menu scroll-sm d-lg-none d-block ${isMenuActive ? "active" : ""
+          }`}
       >
         <button type='button' className='close-button' onClick={closeMenu}>
           <i className='ph ph-x' />{" "}
@@ -104,9 +102,8 @@ const HeaderOne = () => {
             <ul className='nav-menu flex-align nav-menu--mobile'>
               {menuItems.map((item, index) => (
                 <li
-                  className={`nav-menu__item ${
-                    pathname === item.href ? "activePage" : ""
-                  }`}
+                  className={`nav-menu__item ${pathname === item.href ? "activePage" : ""
+                    }`}
                   key={index}
                 >
                   <Link href={item.href} className='nav-menu__link'>
