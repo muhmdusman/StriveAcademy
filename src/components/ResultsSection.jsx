@@ -18,7 +18,7 @@ const ResultsSection = () => {
                 Results Will Be Shared As Per The Progress
               </h2>
               <p className='text-neutral-500 wow bounceInUp'>
-                At Strive Star Academy, we believe in transparency and continuous improvement. We closely monitor each student&apos;s academic journey and share detailed progress reports regularly with students and parents.
+                At Strive Stars Academy, we believe in transparency and continuous improvement. We closely monitor each student&apos;s academic journey and share detailed progress reports regularly with students and parents.
               </p>
               <p className='text-neutral-500 mt-16 wow bounceInUp'>
                 Our structured assessment system ensures that every milestone is tracked, every challenge is addressed, and every achievement is celebrated. Parents stay informed and students stay motivated.

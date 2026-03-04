@@ -11,11 +11,11 @@ import Animation from "@/helper/Animation";
 
 export const metadata = {
   title:
-    "Strive Star Academy | Best Tutors in Pakistan – Class 6–12, O/A Levels & IELTS",
+    "Strive Stars Academy | Best Tutors in Pakistan – Class 6–12, O/A Levels & IELTS",
   description:
-    "Strive Star Academy is a leading study academy in Lahore, Pakistan offering expert tutoring for Class 6–8, Class 9–10, Class 11–12, O-Level, A-Level, and IELTS preparation. Achieve top grades in Matric, FSc, and Cambridge board exams with our qualified tutors and personalized learning programs.",
+    "Strive Stars Academy is a leading study academy in Lahore, Pakistan offering expert tutoring for Class 6–8, Class 9–10, Class 11–12, O-Level, A-Level, and IELTS preparation. Achieve top grades in Matric, FSc, and Cambridge board exams with our qualified tutors and personalized learning programs.",
   keywords:
-    "Strive Star Academy, study academy Pakistan, tuition centre Lahore, IELTS preparation Pakistan, O-Level tutor, A-Level tutor, Matric preparation, FSc classes, best academy Pakistan, private tutoring Lahore",
+    "Strive Stars Academy, study academy Pakistan, tuition centre Lahore, IELTS preparation Pakistan, O-Level tutor, A-Level tutor, Matric preparation, FSc classes, best academy Pakistan, private tutoring Lahore",
 };
 
 const page = () => {

@@ -35,7 +35,7 @@ const BannerOne = () => {
               <div className='flex-align gap-8 mb-16' data-aos='fade-down'>
                 <span className='w-8 h-8 bg-main-600 rounded-circle' />
                 <h5 className='text-main-600 mb-0'>
-                  Strive Star Academy
+                  Strive Stars Academy
                 </h5>
               </div>
               <h1 className='display2 mb-24 wow bounceInLeft'>
@@ -50,7 +50,7 @@ const BannerOne = () => {
                 {" "}Power
               </h1>
               <p className='text-neutral-500 text-line-2 wow bounceInUp'>
-                Welcome to Strive Star Academy, where we empower students to achieve academic excellence. From middle school to A-Levels and IELTS preparation, we provide personalized tutoring that unlocks every student&apos;s potential.
+                Welcome to Strive Stars Academy, where we empower students to achieve academic excellence. From middle school to A-Levels and IELTS preparation, we provide personalized tutoring that unlocks every student&apos;s potential.
               </p>
               <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
                 <Link
@@ -76,7 +76,7 @@ const BannerOne = () => {
             <div className='banner-thumb position-relative'>
               <img
                 src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=800&q=80&auto=format&fit=crop'
-                alt='Student achieving academic excellence with expert tutoring at Strive Star Academy Pakistan'
+                alt='Student achieving academic excellence with expert tutoring at Strive Stars Academy Pakistan'
                 className='banner-thumb__img rounded-12 wow bounceIn w-100'
                 style={{ objectFit: 'cover', maxHeight: '520px' }}
                 data-wow-duration='3s'

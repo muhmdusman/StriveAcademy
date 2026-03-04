@@ -25,7 +25,7 @@ const PrincipalSection = () => {
                         >
                             <img
                                 src="assets/images/Principal.png"
-                                alt="Principal of Strive Star Academy – Leading Academic Excellence in Pakistan"
+                                alt="Principal of Strive Stars Academy – Leading Academic Excellence in Pakistan"
                                 className="w-100 rounded-16"
                                 style={{
                                     objectFit: "cover",
@@ -69,7 +69,7 @@ const PrincipalSection = () => {
                                 data-aos="fade-up"
                             >
                                 <span className="fw-semibold d-block">Principal</span>
-                                <span className="text-sm opacity-75">Strive Star Academy</span>
+                                <span className="text-sm opacity-75">Strive Stars Academy</span>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const PrincipalSection = () => {
                                     Bilal Jafar
                                 </h3>
                                 <p className="text-main-600 fw-semibold mb-24">
-                                    Founder &amp; Principal, Strive Star Academy
+                                    Founder &amp; Principal, Strive Stars Academy
                                 </p>
 
                                 <p className="text-neutral-500 wow bounceInUp mb-16">

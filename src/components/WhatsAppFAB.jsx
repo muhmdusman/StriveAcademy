@@ -97,7 +97,7 @@ const WhatsAppFAB = () => {
                             href={WHATSAPP_URL}
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label="Chat with Strive Star Academy on WhatsApp"
+                            aria-label="Chat with Strive Stars Academy on WhatsApp"
                             style={{
                                 display: "flex",
                                 alignItems: "center",
@@ -139,7 +139,7 @@ const WhatsAppFAB = () => {
                                         fontSize: "14px",
                                     }}
                                 >
-                                    Strive Star Academy
+                                    Strive Stars Academy
                                 </span>
                                 <span
                                     style={{

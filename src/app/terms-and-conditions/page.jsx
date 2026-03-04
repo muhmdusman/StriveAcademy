@@ -5,9 +5,9 @@ import TermsConditionsInner from "@/components/TermsConditionsInner";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
-  title: "Terms and Conditions - Strive Star Academy",
+  title: "Terms and Conditions - Strive Stars Academy",
   description:
-    "Read the terms and conditions for enrolling at Strive Star Academy. Learn about our policies on enrollment, fees, attendance, and more.",
+    "Read the terms and conditions for enrolling at Strive Stars Academy. Learn about our policies on enrollment, fees, attendance, and more.",
 };
 
 const page = () => {

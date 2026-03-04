@@ -7,7 +7,7 @@ const FaqOne = () => {
             <div className='faq-thumb'>
               <img
                 src='https://images.unsplash.com/photo-1509062522246-3755977927d7?w=720&q=80&auto=format&fit=crop'
-                alt='Expert teacher conducting an interactive class at Strive Star Academy Lahore'
+                alt='Expert teacher conducting an interactive class at Strive Stars Academy Lahore'
                 className='rounded-16 w-100'
                 style={{ objectFit: 'cover', maxHeight: '520px' }}
                 data-tilt=''

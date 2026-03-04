@@ -2,18 +2,18 @@
 import Slider from "react-slick";
 
 const placeholderSlides = [
-  { id: 1, src: "assets/images/Acheivers/acheiver-1.jpeg", alt: "Top Achiever – Strive Star Academy" },
-  { id: 2, src: "assets/images/Acheivers/acheiver-2.jpeg", alt: "Academic Excellence – Strive Star Academy" },
-  { id: 3, src: "assets/images/Acheivers/acheiver-3.jpeg", alt: "Student Success – Strive Star Academy Pakistan" },
-  { id: 4, src: "assets/images/Acheivers/acheiver-4.jpeg", alt: "Star Performer – Strive Star Academy" },
-  { id: 5, src: "assets/images/Acheivers/acheiver-5.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 6, src: "assets/images/Acheivers/acheiver-6.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 7, src: "assets/images/Acheivers/acheiver-7.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 8, src: "assets/images/Acheivers/acheiver-8.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 9, src: "assets/images/Acheivers/acheiver-9.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 10, src: "assets/images/Acheivers/acheiver-10.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 11, src: "assets/images/Acheivers/acheiver-11.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
-  { id: 12, src: "assets/images/Acheivers/acheiver-12.jpeg", alt: "Board Exam Topper – Strive Star Academy" },
+  { id: 1, src: "assets/images/Acheivers/acheiver-1.jpeg", alt: "Top Achiever – Strive Stars Academy" },
+  { id: 2, src: "assets/images/Acheivers/acheiver-2.jpeg", alt: "Academic Excellence – Strive Stars Academy" },
+  { id: 3, src: "assets/images/Acheivers/acheiver-3.jpeg", alt: "Student Success – Strive Stars Academy Pakistan" },
+  { id: 4, src: "assets/images/Acheivers/acheiver-4.jpeg", alt: "Star Performer – Strive Stars Academy" },
+  { id: 5, src: "assets/images/Acheivers/acheiver-5.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 6, src: "assets/images/Acheivers/acheiver-6.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 7, src: "assets/images/Acheivers/acheiver-7.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 8, src: "assets/images/Acheivers/acheiver-8.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 9, src: "assets/images/Acheivers/acheiver-9.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 10, src: "assets/images/Acheivers/acheiver-10.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 11, src: "assets/images/Acheivers/acheiver-11.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
+  { id: 12, src: "assets/images/Acheivers/acheiver-12.jpeg", alt: "Board Exam Topper – Strive Stars Academy" },
 ];
 
 const PrevArrow = ({ onClick }) => (
@@ -82,7 +82,7 @@ const TopAchieversSlider = () => {
             </div>
             <h2 className="mb-16 wow bounceIn">Our Top Achievers</h2>
             <p className="text-neutral-500 wow bounceInUp">
-              Strive Star Academy proudly celebrates outstanding results from our
+              Strive Stars Academy proudly celebrates outstanding results from our
               students across Matric, FSc, O&#8209;Level, A&#8209;Level and
               IELTS &mdash; Pakistan&apos;s finest academy for academic
               excellence in Lahore.
@@ -209,7 +209,7 @@ const TopAchieversSlider = () => {
           transform: scale(1.08);
         }
 
-        /* Mobile & tablet */
+        /* Mobile and tablet */
         @media (max-width: 1024px) {
           .achievers-arrow {
             top: 40%;

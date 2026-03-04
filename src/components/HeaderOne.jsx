@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import LogoSVG from "./LogoSVG";
+import Image from "next/image";
 // 
 const HeaderOne = () => {
   let pathname = usePathname();
@@ -51,7 +51,7 @@ const HeaderOne = () => {
               {/* Logo Start */}
               <div className='logo'>
                 <Link href='/' className='link flex-align gap-10'>
-                  <LogoSVG className="academy-logo-svg" style={{ maxWidth: '100%', height: 'auto', width: '144px' }} />
+                  <Image src='/assets/images/logo2.png' alt='Strive Stars Academy' width={90} height={32} style={{ height: 'auto', background: 'transparent' }} priority />
                 </Link>
               </div>
               {/* Logo End  */}
@@ -97,7 +97,7 @@ const HeaderOne = () => {
         </button>
         <div className='mobile-menu__inner'>
           <Link href='/' className='mobile-menu__logo flex-align gap-10'>
-            <LogoSVG className="academy-logo-svg" style={{ maxWidth: '100%', height: 'auto', width: '180px' }} />
+            <Image src='/assets/images/logo2.png' alt='Strive Stars Academy' width={120} height={42} style={{ height: 'auto', background: 'transparent' }} />
           </Link>
           <div className='mobile-menu__menu'>
             <ul className='nav-menu flex-align nav-menu--mobile'>

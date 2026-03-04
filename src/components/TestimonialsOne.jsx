@@ -3,14 +3,18 @@ import { useEffect } from "react";
 
 const TestimonialsOne = () => {
   useEffect(() => {
+    let $instance = null;
+    let initialized = false;
+
     const loadSlick = async () => {
       if (typeof window !== "undefined") {
         const $ = (await import("jquery")).default;
-        require("slick-carousel");
+        $instance = $;
+        await import("slick-carousel");
 
         const mainSlider = $(".testimonials__slider");
 
-        if (mainSlider.length) {
+        if (mainSlider.length && !mainSlider.hasClass("slick-initialized")) {
           // Initialize the sliders
           mainSlider.slick({
             slidesToShow: 1,
@@ -22,6 +26,7 @@ const TestimonialsOne = () => {
             nextArrow: "#testimonials-next",
             prevArrow: "#testimonials-prev",
           });
+          initialized = true;
         }
       }
     };
@@ -29,10 +34,12 @@ const TestimonialsOne = () => {
     loadSlick();
 
     return () => {
-      if (typeof window !== "undefined") {
-        const $ = require("jquery");
-        // Destroy sliders on unmount
-        $(".testimonials__slider").slick("unslick");
+      if (initialized && $instance) {
+        const slider = $instance(".testimonials__slider");
+        if (slider.length && slider.hasClass("slick-initialized")) {
+          slider.slick("unslick");
+        }
+        initialized = false;
       }
     };
   }, []);
@@ -66,7 +73,7 @@ const TestimonialsOne = () => {
                   <h5 className='text-main-600 mb-0'>What Our Students Say</h5>
                 </div>
                 <h2 className='mb-24 wow bounceIn'>
-                  Testimonials from Happy Learners at Strive Star Academy
+                  Testimonials from Happy Learners at Strive Stars Academy
                 </h2>
                 <p className='text-neutral-500 text-line-2 wow bounceInUp'>
                   Real experiences from our students and their families
@@ -100,7 +107,7 @@ const TestimonialsOne = () => {
                     data-aos='fade-left'
                     data-aos-duration={1200}
                   >
-                    "I had a wonderful experience at Strive Star Academy. The academy provides an excellent learning environment for students. The faculty is dedicated and knowledgeable, creating an atmosphere that fosters both academic growth and personal development. Overall, Strive Star Academy is a great place for students to learn and grow in a nurturing environment."
+                    "I had a wonderful experience at Strive Stars Academy. The academy provides an excellent learning environment for students. The faculty is dedicated and knowledgeable, creating an atmosphere that fosters both academic growth and personal development. Overall, Strive Stars Academy is a great place for students to learn and grow in a nurturing environment."
                   </p>
                   <h4 className='mt-48 mb-8' data-aos='fade-left'>
                     Arsam Khan

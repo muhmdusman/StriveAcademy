@@ -1,3 +1,5 @@
+import ContactLocationCard from "./ContactLocationCard";
+
 const ContactInner = () => {
   return (
     <>
@@ -16,29 +18,12 @@ const ContactInner = () => {
               Reach out to us and we&apos;ll get back to you as soon as possible.
             </p>
           </div>
-          <div className='row gy-4'>
-            <div className='col-xl-4 col-md-6'>
-              <div className='contact-item bg-main-25 border border-neutral-30 rounded-12 px-32 py-40 d-flex align-items-start gap-24 hover-bg-main-600 transition-2 hover-border-main-600'>
-                <span className='contact-item__icon w-60 h-60 text-32 flex-center rounded-circle bg-main-600 text-white flex-shrink-0'>
-                  <i className='ph ph-map-pin-line' />
-                </span>
-                <div className='flex-grow-1'>
-                  <h4 className='mb-12'>Our Location</h4>
-                  <p className='text-neutral-500'>
-                    Main Campus, Education Avenue<br/>
-                    Lahore, Pakistan
-                  </p>
-                  <a
-                    href='#'
-                    className='text-main-600 fw-semibold text-decoration-underline mt-16'
-                  >
-                    Find Location
-                  </a>
-                </div>
-              </div>
+          <div className='row gy-4 align-items-stretch'>
+            <div className='col-xl-4 col-md-6 d-flex'>
+              <ContactLocationCard />
             </div>
-            <div className='col-xl-4 col-md-6'>
-              <div className='contact-item bg-main-25 border border-neutral-30 rounded-12 px-32 py-40 d-flex align-items-start gap-24 hover-bg-main-600 transition-2 hover-border-main-600'>
+            <div className='col-xl-4 col-md-6 d-flex'>
+              <div className='contact-item bg-main-25 border border-neutral-30 rounded-12 px-32 py-40 d-flex align-items-start gap-24 hover-bg-main-600 transition-2 hover-border-main-600 w-100'>
                 <span className='contact-item__icon w-60 h-60 text-32 flex-center rounded-circle bg-main-600 text-white flex-shrink-0'>
                   <i className='ph ph-envelope-open' />
                 </span>
@@ -54,8 +39,8 @@ const ContactInner = () => {
                 </div>
               </div>
             </div>
-            <div className='col-xl-4 col-md-6'>
-              <div className='contact-item bg-main-25 border border-neutral-30 rounded-12 px-32 py-40 d-flex align-items-start gap-24 hover-bg-main-600 transition-2 hover-border-main-600'>
+            <div className='col-xl-4 col-md-6 d-flex'>
+              <div className='contact-item bg-main-25 border border-neutral-30 rounded-12 px-32 py-40 d-flex align-items-start gap-24 hover-bg-main-600 transition-2 hover-border-main-600 w-100'>
                 <span className='contact-item__icon w-60 h-60 text-32 flex-center rounded-circle bg-main-600 text-white flex-shrink-0'>
                   <i className='ph ph-phone-call' />
                 </span>
@@ -96,12 +81,12 @@ const ContactInner = () => {
                   Have Questions? We&apos;re Here to Help
                 </h2>
                 <p className='text-neutral-500 text-line-3 max-w-636'>
-                  At Strive Star Academy, we believe in open communication with our students and their families. 
+                  At Strive Stars Academy, we believe in open communication with our students and their families. 
                   Whether you need information about our programs, want to schedule a consultation, or have specific 
                   questions about enrollment, our team is ready to assist you.
                 </p>
                 <div className='mt-32'>
-                  <h5 className='mb-16'>Why Choose Strive Star Academy?</h5>
+                  <h5 className='mb-16'>Why Choose Strive Stars Academy?</h5>
                   <ul className='list-inside'>
                     <li className='text-neutral-500 mb-12'>✓ Expert and qualified tutors</li>
                     <li className='text-neutral-500 mb-12'>✓ Personalized learning approach</li>

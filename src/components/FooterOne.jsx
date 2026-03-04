@@ -31,7 +31,7 @@ const FooterOne = () => {
                     <Link
                       href='mailto:Strivestarsacademy01@gmail.com'
                       className='text-main-600 text-2xl hover-text-main-two-600'
-                      aria-label='Email Strive Star Academy'
+                      aria-label='Email Strive Stars Academy'
                     >
                       <i className='ph-bold ph-envelope-simple' />
                     </Link>
@@ -162,11 +162,13 @@ const FooterOne = () => {
                     <i className='ph ph-map-trifold' />
                   </span>
                   <div>
-                    <span className='text-neutral-500 d-block mb-4'>
-                      Main Campus, Education Avenue
+                    <span className='text-neutral-500 d-block mb-4 fw-semibold'>Branch 1:</span>
+                    <span className='text-neutral-500 d-block mb-8'>
+                      510-Shehbaz Block Mustafa Town, Main Wahdat Road, Lahore
                     </span>
+                    <span className='text-neutral-500 d-block mb-4 fw-semibold'>Branch 2:</span>
                     <span className='text-neutral-500 d-block mb-0'>
-                      Lahore, Pakistan
+                      20-A Commercial Plaza (Basement of Cakes n Bakes), Izmir Town, Canal Road, Lahore
                     </span>
                   </div>
                 </div>
@@ -194,7 +196,7 @@ const FooterOne = () => {
           <div className='container container-two'>
             <div className='bottom-footer__inner flex-between gap-3 flex-wrap'>
               <p className='bottom-footer__text'>
-                Copyright © 2014 <span className='fw-semibold'>Strive Star Academy </span>
+                Copyright © 2014 <span className='fw-semibold'>Strive Stars Academy </span>
                 All Rights Reserved.
               </p>
               <div className='footer-links'>

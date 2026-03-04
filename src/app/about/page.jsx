@@ -9,11 +9,11 @@ import Animation from "@/helper/Animation";
 
 export const metadata = {
   title:
-    "About Us | Strive Star Academy – Expert Study Academy in Lahore, Pakistan",
+    "About Us | Strive Stars Academy – Expert Study Academy in Lahore, Pakistan",
   description:
-    "Learn about Strive Star Academy – Lahore's trusted study academy empowering students in Class 6–12, O-Level, A-Level, and IELTS. Meet our expert tutors, understand our mission to deliver academic excellence, and discover why hundreds of students choose us for their board exam and Cambridge preparation.",
+    "Learn about Strive Stars Academy – Lahore's trusted study academy empowering students in Class 6–12, O-Level, A-Level, and IELTS. Meet our expert tutors, understand our mission to deliver academic excellence, and discover why hundreds of students choose us for their board exam and Cambridge preparation.",
   keywords:
-    "about Strive Star Academy, academy Lahore Pakistan, expert tutors Pakistan, O-Level academy, A-Level coaching, IELTS Lahore, Matric FSc tuition, study centre Pakistan",
+    "about Strive Stars Academy, academy Lahore Pakistan, expert tutors Pakistan, O-Level academy, A-Level coaching, IELTS Lahore, Matric FSc tuition, study centre Pakistan",
 };
 
 const page = () => {
@@ -26,7 +26,7 @@ const page = () => {
       {/* About Section */}
       <section
         className="about py-120 position-relative z-1"
-        aria-label="About Strive Star Academy"
+        aria-label="About Strive Stars Academy"
       >
         <div className="container">
           <div className="row gy-5 align-items-center">
@@ -34,13 +34,13 @@ const page = () => {
               <div className="pe-lg-5">
                 <div className="flex-align gap-8 mb-16 wow bounceInDown">
                   <span className="w-8 h-8 bg-main-600 rounded-circle" />
-                  <h5 className="text-main-600 mb-0">About Strive Star Academy</h5>
+                  <h5 className="text-main-600 mb-0">About Strive Stars Academy</h5>
                 </div>
                 <h2 className="mb-24 wow bounceIn">
                   Empowering Students to Achieve Excellence
                 </h2>
                 <p className="text-neutral-500 wow bounceInUp">
-                  At Strive Star Academy, we are committed to providing exceptional educational support to students across all academic levels. Our mission is to nurture academic potential through personalized attention, innovative teaching methods, and unwavering dedication to student success.
+                  At Strive Stars Academy, we are committed to providing exceptional educational support to students across all academic levels. Our mission is to nurture academic potential through personalized attention, innovative teaching methods, and unwavering dedication to student success.
                 </p>
                 <p className="text-neutral-500 mt-16 wow bounceInUp">
                   Founded with a vision to make quality education accessible to all, we have successfully helped hundreds of students achieve their academic goals. From foundational learning in middle school to advanced preparation for Cambridge examinations and IELTS, we provide a comprehensive learning experience tailored to individual needs.
@@ -55,7 +55,7 @@ const page = () => {
                 <div className="col-sm-6" data-aos="fade-up">
                   <img
                     src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&q=80&auto=format&fit=crop"
-                    alt="Students studying together at Strive Star Academy Lahore Pakistan"
+                    alt="Students studying together at Strive Stars Academy Lahore Pakistan"
                     className="rounded-12 w-100"
                     style={{ objectFit: 'cover', height: '320px' }}
                   />
@@ -67,7 +67,7 @@ const page = () => {
                   </div>
                   <img
                     src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80&auto=format&fit=crop"
-                    alt="Expert tutor guiding a student at Strive Star Academy Pakistan"
+                    alt="Expert tutor guiding a student at Strive Stars Academy Pakistan"
                     className="rounded-12 w-100"
                     style={{ objectFit: 'cover', height: '200px' }}
                   />
