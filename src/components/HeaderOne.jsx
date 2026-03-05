@@ -52,6 +52,7 @@ const HeaderOne = () => {
               <div className='logo'>
                 <Link href='/' className='link flex-align gap-10'>
                   <Image src='/assets/images/logo2.png' alt='Strive Stars Academy' width={90} height={32} style={{ height: 'auto', background: 'transparent' }} priority />
+                  <span style={{ fontWeight: 700, fontSize: '1.1rem', color: 'inherit', whiteSpace: 'nowrap' }}>STRIVE STARS ACADEMY</span>
                 </Link>
               </div>
               {/* Logo End  */}
